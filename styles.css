@@ -1,0 +1,42 @@
+/*CSS for header*/
+header {
+  display: flex;
+  box-sizing: border-box;
+  background-color: black;
+  color: aliceblue;
+}
+
+.header-logo {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  display: inline;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+/*Centering main content*/
+.head,
+.about-me,
+.example,
+.connect,
+.head-line {
+  padding: auto;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+}
+
+p {
+  width: 500px;
+  align-items: center;
+}
