@@ -1,42 +1,169 @@
-/*CSS for header*/
-header {
-  display: flex;
-  box-sizing: border-box;
-  background-color: black;
-  color: aliceblue;
-}
-
-.header-logo {
-  box-sizing: border-box;
+* {
+  margin: 0;
   font-family: sans-serif;
-  letter-spacing: 5px;
-  display: inline;
 }
-
-ul {
+section,
+main {
+  color: #404146;
+}
+/* Navbar */
+nav {
   display: flex;
+  align-items: center;
+  background-color: #404146;
+  color: white;
+  padding: 20px 40px;
 }
 
-li {
+nav h1 {
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+nav ul li {
   list-style: none;
-  padding: 5px;
+  font-size: 13px;
 }
 
-/*Centering main content*/
-.head,
-.about-me,
-.example,
-.connect,
-.head-line {
-  padding: auto;
+/* Jumbotron/Hero */
+.jumbotron-A {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 20px 0;
+}
+
+.jumbotron-A h2 {
+  font-size: 80px;
+  letter-spacing: 5px;
+}
+.jumbotron-A .dot {
+  height: 18px;
+  aspect-ratio: 1;
+  background-color: #f1d00e;
+  margin-top: auto;
+  margin-bottom: 18px;
+  border-radius: 9px;
+  margin-left: 8px;
+}
+.jumbotron-B {
+  text-align: center;
+}
+.jumbotron-B h3 {
+  font-weight: 10;
+  font-size: 40px;
+}
+.jumbotron-B img {
+  width: 200px;
+}
+
+main {
+  background-color: #f4f4f4;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+main h4,
+main p {
+  max-width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+main h4 {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+main p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contoh {
+  padding: 50px 100px;
   text-align: center;
 }
 
-img {
-  height: 100px;
+.contoh h4 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 
-p {
-  width: 500px;
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrap img {
+  width: 200px;
+  box-shadow: #404146;
+}
+
+.contact {
+  text-align: center;
+  background-color: #f4f4f4;
   align-items: center;
+  padding: 50px 0;
+}
+.contact h4 {
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  padding: 20px 0;
+}
+
+form input,
+form textarea {
+  min-width: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #7c7d82;
+  border: none;
+  padding: 5px 5px;
+}
+form input {
+  height: 25px;
+}
+
+form textarea {
+  height: 60px;
+}
+
+form button {
+  min-width: 400px;
+  height: 30px;
+  background-color: #f7e989;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  height: 150px;
+  color: #fff;
+  background-color: #7c7d82;
+  padding: 25px 50px;
+}
+
+footer h1 {
+  letter-spacing: 5px;
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px 0;
 }
